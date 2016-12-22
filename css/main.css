@@ -134,6 +134,11 @@
 }
 .our-team {
 	border-top: 1px solid #d8d8d8;
+	height: 500px;
+	background-color: #e9eaea;
+	padding-top: 100px;
+}
+.our-team-1 {
 	height: 600px;
 	background-color: #e9eaea;
 	padding-top: 100px;
@@ -190,6 +195,58 @@
 	margin-top: 10%;
 }
 .george-text {
+	text-align: center;
+	padding-top: 200px;
+	color: #00b0ff;
+}
+.bryan {
+	float: right;
+	height: 400px;
+	width: 300px;
+	background-color: white;
+	padding-top: 2%;
+	padding-left: 4%;
+}
+.bryan:hover {
+	background-color: #008080;
+	cursor: pointer;
+}
+.bryan-pic {
+	height: 200px;
+	width: 200px;
+	background-image: url("../images/bryan-pic.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 100px;
+	margin-top: 10%;
+}
+.bryan-text {
+	text-align: center;
+	padding-top: 200px;
+	color: #00b0ff;
+}
+.you {
+	float: left;
+	height: 400px;
+	width: 300px;
+	background-color: white;
+	padding-top: 2%;
+	padding-left: 4%;
+}
+.you:hover {
+	background-color: #008080;
+	cursor: pointer;
+}
+.you-pic {
+	height: 200px;
+	width: 200px;
+	background-image: url("../images/george-pic.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 100px;
+	margin-top: 10%;
+}
+.you-text {
 	text-align: center;
 	padding-top: 200px;
 	color: #00b0ff;
