@@ -328,8 +328,7 @@ label {
 .course-1:hover, .course-2:hover, .course-3:hover, .course-4:hover {
 	-webkit-filter: blur(0);
 	filter: blur(0);
-	cursor: pointer;
-}
+	cursor: pointer;}
 .course-2 {
 	color: white;
 	height:	400px;
