@@ -20,7 +20,7 @@
 			</ul>
 			<ul class="pull-right">
 				<li><a href="sign-up.html">Sign Up</a></li>
-				<li><a href="log-in.html">Log In</a></li>
+				<li><a href="log-in.html">Log In</a></li>		
 				<li><a href="about.html">About</a></li>
 			</ul>
 			
@@ -31,22 +31,75 @@
 	<div class="courses">
 		<div class="container">
 			<div class="course-1">
-				<h1 style="font-size: 100px; font-weight: bold; padding-top: 20%;">Course 1</h1>
+				<h1 style="font-size: 100px; font-weight: bold; padding-top: 20%;">HTML</h1>
 			</div>
 
 			<div class="course-2">
-				<h1 style="font-size: 100px; font-weight: bold; padding-top: 20%;">Course 2</h1>
+				<h1 style="font-size: 100px; font-weight: bold; padding-top: 20%;">CSS</h1>
 			</div>
 
 			<div class="course-3">
-				<h1 style="font-size: 100px; font-weight: bold; padding-top: 20%;">Course 3</h1>
+				<h1 style="font-size: 100px; font-weight: bold; padding-top: 20%;">JavaScript</h1>
 			</div>
 
 			<div class="course-4">
-				<h1 style="font-size: 100px; font-weight: bold; padding-top: 20%;">Course 4</h1>
+				<h1 style="font-size: 100px; font-weight: bold; padding-top: 20%;">PHP</h1>
 			</div>
 		</div>
 	</div>
+
+	<div class="footer"> <!--Footer start-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<h4>Links</h4>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="courses.html">Courses</a></li>
+					<li><a href="sign-up.html">Sign Up</a></li>
+					<li><a href="log-in.html">Log In</a></li>
+					<li><a href="about.html">About</a></li>
+				</div>
+
+				<div class="col-sm-6">
+					<h4>Social Media</h4>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Youtube</a></li>
+					<li><a href="#">Instagram</a></li>
+					<li><a href="#">GitHub</a></li>
+				</div>
+			</div>
+		</div>
+	</div> 
+	
+	<div class="more-info">
+		<div class="container">
+				<a href="#">Privacy Policy</a>
+				<a>|</a>
+				<a href="#">Terms</a>
+				<ul class="pull-right">
+				<a>Made in UK © 2016 We Like To Code</a>
+			</div>
+		</div>
+	</div> <!--Footer end-->
+
+	<script type="text/javascript">
+		$(".course-1").click(function() {
+			window.location = ("learn-html.html")
+		})
+
+		$(".course-2").click(function() {
+			window.location = ("learn-css.html")
+		})
+
+		$(".course-3").click(function() {
+			window.location = ("learn-javascript.html")
+		})
+
+		$(".course-4").click(function() {
+			window.location = ("learn-php.html")
+		})
+	</script>
 
 </body>
 </html>
