@@ -305,7 +305,7 @@ label {
 .courses {
 	width: 800px;
 	height: 1850px;
-	margin-left: 25%;
+	margin-left: 30%;
 	background-color: #5a5a5a;
 	text-align: center;
 	border-left: 1px solid white;
@@ -415,6 +415,10 @@ label {
 	height: 480px;
 	border-bottom: 1px solid #d8d8d8;
 }
-.video-tutorials {
-	height: 800px;
+.html-video {
+	height: 1000px;
+}
+.video {
+	padding-left: 19%;
+	padding-top: 6%;
 }
