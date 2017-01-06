@@ -64,6 +64,9 @@
 .learn-more {
 	height: 480px;
 }
+.footer-image {
+	float: right;
+}
 .footer {
 	height: 200px;
 	border-top: 1px solid #d8d8d8;
@@ -299,4 +302,73 @@ label {
     padding-top: 10px;
     font-size: 14px;
 }
-
+.courses {
+	width: 800px;
+	height: 1850px;
+	margin-left: 25%;
+	background-color: #5a5a5a;
+	text-align: center;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+.course-1 {
+	color: white;
+	height:	400px;
+	width: 700px;
+	margin-left: 30px;
+	margin-top: 50px;
+	background-color: white;
+	background-image: url("../images/course.png");
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	border-radius:	10px;
+}
+.course-1:hover, .course-2:hover, .course-3:hover, .course-4:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+	cursor: pointer;
+}
+.course-2 {
+	color: white;
+	height:	400px;
+	width: 700px;
+	margin-left: 30px;
+	margin-top: 50px;
+	background-color: white;
+	background-image: url("../images/course.png");
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	border-radius:	10px;
+}
+.course-3 {
+	color: white;
+	height:	400px;
+	width: 700px;
+	margin-left: 30px;
+	margin-top: 50px;
+	background-color: white;
+	background-image: url("../images/course.png");
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	border-radius:	10px;
+}
+.course-4 {
+	color: white;
+	height:	400px;
+	width: 700px;
+	margin-left: 30px;
+	margin-top: 50px;
+	background-color: white;
+	background-image: url("../images/course.png");
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	border-radius:	10px;
+}
